@@ -12,7 +12,7 @@ env:
     # GH_TOKEN: Marvim's Github access token
     - secure: N73UKR9bIcAh5q+YXdru8iWdMJh6V85PMtl14ZK4EzTi1MP8AcSuTEJMOAizGOcYL+jL7tM/Kd8rxsJVYcwdqIPij4jugNsm4UZLgxAoI1rZ2wpUHAqQdknTFGzss64UuNehbcEM82aK5/qbtvzU3eM8UVVVsuTg8SvB+XAmdI4=
     # COVERITY_SCAN_TOKEN
-    - secure: pgI3Qt7bCRDeuKX38hP9xTJ6CdbwoUkcPToHnfDFYeclhUJRgCfZhCKKO+zTwqoa2Jx7wShoFeHaKidOFctg4ls4lrn47b0bPFED3LtU7RDQaeamqFKzgTV1IcEpkUfGl/i8tOmaEd7UvyUHKuKZmjmVr4Ce4ugATShYB186EW0=
+    - secure: DlaBxxav917aS8n/NU1K1wJirSDWssret2F2BBZRnUMWDJTRgL+j2e89k67446sW63x/T0gbvlPKo6hoKS5s7C4jEq+t6aKtbOhSLsE8A36++19SvZEC0Tagll1ho6ozA6Tal3WHs6NnW198tpFEkKOoD5qrfa+E/onVKjtT+iE=
   matrix:
     - CI_TARGET=assign-labels
     - CI_TARGET=deps-src
