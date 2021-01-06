@@ -14,12 +14,9 @@ However, you won't find the "Genuine People Personalities" technology here.
    - [Doxygen documentation](https://neovim.io/doc/dev)
    - [User documentation](https://neovim.io/doc/user)
  - Build reports:
-   - [Clang report](https://neovim.io/doc/reports/clang)
    - [PVS-studio report](https://neovim.io/doc/reports/pvs)
    - [Vimpatch report](https://neovim.io/doc/reports/vimpatch)
  - [Coverity](https://scan.coverity.com/projects/2227)
- - [Nightly builds](https://github.com/neovim/neovim/releases)
- - [Generated builds](#generated-builds)
 
 
 # How it works
@@ -28,7 +25,6 @@ However, you won't find the "Genuine People Personalities" technology here.
    run as daily [CI jobs](https://travis-ci.org/neovim/bot-ci).
 2. Some of the jobs push updates to the [neovim/doc](https://github.com/neovim/doc) repo. Examples:
    - [pvs-report.sh](https://github.com/neovim/bot-ci/blob/master/ci/pvs-report.sh) generates the [PVS report](https://neovim.io/doc/reports/pvs/PVS-studio.html.d)
-   - [clang-report.sh](https://github.com/neovim/bot-ci/blob/master/ci/clang-report.sh) generates the [Clang report](https://neovim.io/doc/reports/clang/)
 3. [neovim/doc](https://github.com/neovim/doc) has a `gh-pages` branch. GitHub implicitly
    creates a website for that repo, which is mapped to the `/doc/` path of the
    [main website](https://github.com/neovim/neovim.github.io).
@@ -86,11 +82,6 @@ that `<username>/doc` will always be up-to-date.
 
 The above steps can be performed analogously for other repositories a `bot-ci`
 script pushes to, e.g. `neovim/deps` for `ci/deps64.sh`.
-
-# Generated builds
-
-The `ci/nightly.sh` script auto-generates and publishes builds to
-https://github.com/neovim/neovim/releases/nightly.
 
 ## Setting up integration builds
 
